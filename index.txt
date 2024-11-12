@@ -1,0 +1,30 @@
+#git  vs. GitHub
+
+git init, git status, 
+git add 
+    git add file
+    git add file1, file2,  file...n
+    git add .
+    git add -f .
+    git add -f file1, file2,  file...n
+    git add -f directoryname 
+git commit -m "your message"
+
+git push 
+
+git log
+
+
+#Config
+
+git config --global user.name "Your Name"
+git config --global user.email "Your email address"
+
+git config --global --list
+git config --system --list
+
+git config --local --list
+
+git config --global --unset user.name
+git config --global --unset user.email
+
